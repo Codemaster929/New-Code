@@ -1,9 +1,11 @@
+
+
 import java.util.Scanner;
 import java.util.Random;
-public class RPS {
+public class RPS{
 public static void main(String[] args) {
     String choice="";
-    int usernm=0;
+    int usernm=0;int count=1;
       try(Scanner sc=new Scanner(System.in)) {
         Random play=new Random();
         int num=play.nextInt(1,3);
@@ -17,6 +19,9 @@ public static void main(String[] args) {
         choice="Rock";
   }
 System.out.println("Lets Play a [Rock], [Paper], [Scissor] __GAME!!!!:)");
+System.out.println("Round [1]>>>>>>>>>>>>");
+for(int i=0;i<3;i++){
+count++;
 System.out.print("Pls,Enter Your Choice :");
 String user=sc.next();
 System.out.println("Your Choice Was:"+user);
@@ -70,6 +75,9 @@ else if(num==1 && usernm==6){
      else{
       System.out.println("INVALID!!!!");
      }
+     if(count!=4){
 
-  
-}}}
+     
+   System.out.format("\nRound [%d]>>>>>>>>>\n",count);
+     }
+}}}}
