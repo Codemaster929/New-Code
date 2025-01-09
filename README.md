@@ -1,1 +1,1 @@
-just a basic rock, paper, scissor game using java and its .random functions and basic conditional statements
+HERE ARE THE PROGRAMS I MADE AS I Learn JAVA
